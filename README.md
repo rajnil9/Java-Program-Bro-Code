@@ -1,17 +1,17 @@
-# ☕ Java Full Course (Bro Code 2025)
+# ☕Java Full Course (Bro Code 2025)
 
-Welcome to *Java Full Course for Free ☕ (2025)* structured notes and hands-on mini-projects, inspired by the [Video Link](https://www.youtube.com/watch?v=xTtL8E4LzTQ).
+Welcome to the **Java Full Course for Free ☕ (2025)** by Bro Code, contains programs and hands-on mini-projects in Java, that I have done while practising [this video](https://www.youtube.com/watch?v=xTtL8E4LzTQ).
 
-🚀 *Level up your Java skills with interactive, beginner-friendly projects designed to help you build, practice, and showcase your learning journey.*
+🚀 **Level up your Java skills with interactive, beginner-friendly projects designed to help you build, practice, and showcase your learning journey.**
 
 ---
 
 ## 📚 What's Inside
 
-✨ *Basics & Syntax Mastery*  
-✨ *Object-Oriented Programming (OOP)*  
-✨ *Hands-On Mini Projects*  
-✨ *Advanced Java Concepts*
+✨ Basics & Syntax Mastery  
+✨ Object-Oriented Programming (OOP)  
+✨ Hands-On Mini Projects  
+✨ Advanced Java Concepts
 
 ---
 
@@ -31,10 +31,10 @@ Welcome to *Java Full Course for Free ☕ (2025)* structured notes and hands-on 
 
 Clone the repository:
 
-bash
+```bash
 git clone https://github.com/rajnil9/java-brocode-2025-course.git
 cd java-brocode-2025-course
-
+```
 
  ### ✨ Created with ❤ by *Rajnil Saha* ✨
 
