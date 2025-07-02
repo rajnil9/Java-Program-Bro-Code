@@ -5,7 +5,7 @@ class a2
     String item;
     int quan;
     double price;
-    char currency='$';
+    char currency='$'; // to print the currency 
     float total;
 
     Scanner sc=new Scanner(System.in);
@@ -16,7 +16,7 @@ class a2
     price=sc.nextFloat();
     System.out.print("How many would you like to buy ? ");
     quan=sc.nextInt();
-    total=(float)(price*quan);
+    total=(float)(price*quan); // to calculate final bill 
     System.out.print("The total bill for " + quan + " " + item + "/s " + "would be : " +currency  + total);
   }
 }
