@@ -1,5 +1,5 @@
 import java.util.*;
-class a3
+class a1
 {
   // MAD LIBS GAME
   public static void main(String[] args) 
@@ -27,6 +27,6 @@ System.out.println("In an exihibit , I saw" + noun + ".");
 System.out.println(noun + "was " + adj2 + " and " + verb + "!");
 System.out.println("I was " + adj3 + "!");
 
-
+sc.close();
   }
 }

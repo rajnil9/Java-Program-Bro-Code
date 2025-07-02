@@ -18,5 +18,6 @@ class a2
     quan=sc.nextInt();
     total=(float)(price*quan); // to calculate final bill 
     System.out.print("The total bill for " + quan + " " + item + "/s " + "would be : " +currency  + total);
+    sc.close();
   }
 }
