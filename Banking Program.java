@@ -35,8 +35,16 @@ class bank
      
 
     } // END OF WHILE LOOP
-     
+
+    System.out.println("****************");
+    System.out.println("Thank you, have a nice day!");
+    System.out.println("****************");
+
+
+      sc.close();
   } // END OF MAIN METHOD
+
+   
 
   static void balanceshow(double balance)
   {
