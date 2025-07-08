@@ -82,22 +82,4 @@ class music {
                 }
             }
         }
-        // Handling the case when the file format is not supported
-        catch (UnsupportedAudioFileException e) {
-            System.out.println("The selected file format is not supported.");
-        }
-        // Handling the case when the audio system resources are unavailable
-        catch (LineUnavailableException e) {
-            System.out.println("Unable to access audio resources.");
-        }
-        // Handling general I/O exceptions
-        catch (IOException e) {
-            System.out.println("An error occurred while handling the audio file.");
-        }
-        // This block always executes, displaying a goodbye message
-        finally {
-            System.out.println("Bye! Thanks for playing.");
-            sc.close(); // Closing the scanner before the program ends
-        }
-    }
-}
+        
