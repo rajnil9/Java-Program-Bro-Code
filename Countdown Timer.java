@@ -1,32 +1,38 @@
-import java.util.*;
-class timer
-{
-  public static void main(String[] args)
-   {
-    
-    Scanner sc=new Scanner(System.in);
+import java.util.*; // Importing the utilities including Scanner, Timer, TimerTask
 
-    System.out.print("Enter the number for Countdown: ");
-    int res=sc.nextInt();
-    
-    Timer timer=new Timer();
-    TimerTask t=new TimerTask()
+class timer // Class name
+{
+    public static void main(String[] args)
     {
-    int c=res;
-    @Override
-    public void run()
-     {
-      
-      System.out.println(c);
-      c--;
-      if(c<0)
-      {
-      System.out.println("HAPPY NEW YEAR");
-      timer.cancel();
-      }
-      
-     }
-    };
-   timer.schedule(t, 0, 500);
-  }
+        Scanner sc = new Scanner(System.in); // Create Scanner object for user input
+
+        System.out.print("Enter the number for Countdown: ");
+        int res = sc.nextInt(); // Read countdown starting number from the user
+
+        Timer timer = new Timer(); // Create a Timer object to schedule the countdown task
+
+        // Create a TimerTask with overridden run() method
+        TimerTask t = new TimerTask()
+        {
+            int c = res; // Initialize countdown value with user input
+
+            @Override
+            public void run()
+            {
+                System.out.println(c); // Print current countdown value
+                c--; // Decrement the counter
+
+                if (c < 0) // When countdown reaches below zero
+                {
+                    System.out.println("HAPPY NEW YEAR"); // Print celebration message
+                    timer.cancel(); // Stop the Timer to end the program
+                }
+            }
+        };
+
+        // Schedule the TimerTask with:
+        // - initial delay of 0 ms
+        // - repeat period of 500 ms (0.5 seconds)
+        timer.schedule(t, 0, 500);
+    }
 }
