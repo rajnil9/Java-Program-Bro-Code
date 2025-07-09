@@ -1,18 +1,17 @@
 // Package declaration, indicating the folder structure for organization
 package Java_Hangman_Game;
 
-// Importing necessary classes
+
 import java.io.BufferedReader;         // For reading files efficiently
 import java.io.FileNotFoundException;  // Exception for missing files
 import java.io.FileReader;             // For reading files
 import java.io.IOException;            // Exception for input/output errors
-import java.util.*;                    // For using Scanner, ArrayList, HashSet, Random
+import java.util.*;                   
 
-// Declaring the class game1 (Java file should be named game1.java for this)
-class game1
+class Hangman
 {
 
-    // Main method where program execution starts
+     //JAVA HANGMAN GAME
     public static void main(String[] args)
     {
         // Creating Scanner object for user input
@@ -80,7 +79,7 @@ class game1
             wordState.add('_');
         }
 
-        // Displaying the game welcome message
+        
         System.out.println("************************");
         System.out.println("Welcome to Java Hangman!");
         System.out.println("************************");
@@ -97,11 +96,11 @@ class game1
             {
                 System.out.print(c + " ");
             }
-            System.out.println(); // Moving to the next line
+            System.out.println();
 
             // Prompting the user to guess a character
             System.out.print("Guess a character: ");
-            String input = sc.next().toLowerCase(); // Taking user input and converting to lowercase
+            String input = sc.next().toLowerCase(); 
 
             // Checking if the user entered an empty input
             if (input.isEmpty())
@@ -140,9 +139,9 @@ class game1
                 // Checking if the user has guessed the entire word
                 if (!wordState.contains('_'))
                 {
-                    System.out.println(HangmanArt(wrongguess)); // Display final Hangman art
-                    System.out.println("YOU WIN!"); // Display win message
-                    System.out.println("The word was: " + word); // Display the correct word
+                    System.out.println(HangmanArt(wrongguess));
+                    System.out.println("YOU WIN!"); 
+                    System.out.println("The word was: " + word); 
                     return; // Exit the program
                 }
             }
@@ -155,11 +154,11 @@ class game1
         }
 
         // Executed when the user has used all 6 wrong guesses
-        System.out.println(HangmanArt(wrongguess)); // Display final Hangman art
-        System.out.println("Game Over! YOU LOSE!"); // Display lose message
-        System.out.println("The correct word was: " + word); // Display the correct word
+        System.out.println(HangmanArt(wrongguess)); 
+        System.out.println("Game Over! YOU LOSE!"); 
+        System.out.println("The correct word was: " + word); 
 
-        // Closing the Scanner object
+       
         sc.close();
     }
 
