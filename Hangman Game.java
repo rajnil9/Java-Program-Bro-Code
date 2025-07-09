@@ -9,7 +9,6 @@ class Hangman
     ArrayList<Character> wordState= new ArrayList<>();
     int wrongguess=0;
 
-
     for(int i=0;i<word.length();i++)
     {
       wordState.add('_');
@@ -41,20 +40,34 @@ class Hangman
     for(int i=0;i<word.length();i++)
     {
       if(word.charAt(i)==Guess)
-      word.set(i,Guess);
+      wordState.set(i,Guess);
 
+    }
+
+    if(!wordState.contains('_'))
+    {
+      System.out.println(HangmanArt(wrongguess));
+      System.out.println("YOU WIN!");
+      System.out.println("The word was: "+ word);
+      break;
     }
 
 
     }
     else
+    {
     wrongguess++;
     System.out.println("Wrong Guess");
+     }
+
+     if(wrongguess>=6)
+     {
+      System.out.println(HangmanArt(wrongguess));
+      System.out.println("Game Over! YOU LOSE!");
+      System.out.println("Correct word is: " + word );
+     }
 
    }
-
-    
-
     sc.close();
   }
 
