@@ -14,3 +14,8 @@ robot
 pencil
 camera
 umbrella
+laptop
+keyboard
+cloud
+star
+moon
