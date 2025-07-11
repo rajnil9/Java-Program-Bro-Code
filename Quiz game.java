@@ -52,5 +52,6 @@ public static void main(String[] args)
    System.out.println("Total score is: " + total+"/"+q.length);
 
    sc.close();
+   
   }
 }
