@@ -83,6 +83,7 @@ class music {
                 }
             }
         }
+        
         // Handling the case when the file format is not supported
         catch (UnsupportedAudioFileException e) {
             System.out.println("The selected file format is not supported.");
