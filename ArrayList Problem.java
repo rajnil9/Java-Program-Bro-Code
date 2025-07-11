@@ -38,7 +38,7 @@ class ListExample {
         } else {
             System.out.println("Cannot update index 1, list too small.");
         }
-
+        
         // Display length and final list
         System.out.println("Current length: " + fruits.size());
         System.out.println("Final Fruits: " + fruits);
