@@ -2,6 +2,7 @@ import java.util.*;
 import java.util.Random; //importing random package 
 class a7
 {
+  
   public static void main(String[] args) 
   {
     // RANDOM NUMBER GUESSING GAME

@@ -51,6 +51,7 @@ class rps {
 
         } while (play.equals("yes")); // Continue the loop if user enters "yes"
 
+        
         System.out.println("THANKS FOR PLAYING!");
     }
 }

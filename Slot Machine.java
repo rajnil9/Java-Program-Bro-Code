@@ -86,6 +86,7 @@ class Slot {
     }
     return row;
   }
+  
 
   // Prints the spun row with decoration
   static void printrow(String row[]) {

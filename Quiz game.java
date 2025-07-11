@@ -47,6 +47,7 @@ public static void main(String[] args)
     System.out.println(" WRONG ");
     System.out.println("********");
    }
+   
    }
    System.out.println("Total score is: " + total+"/"+q.length);
 

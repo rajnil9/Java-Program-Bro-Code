@@ -42,6 +42,7 @@ class bank
 
 
       sc.close();
+      
   } // END OF MAIN METHOD
 
    
