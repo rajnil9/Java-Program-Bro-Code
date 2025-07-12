@@ -1,3 +1,6 @@
+![Java Bro Code Banner](banner.png)
+
+
 # ☕ Java Full Course (Bro Code 2025)
 
 [![GitHub Repo Stars](https://img.shields.io/github/stars/rajnil9/Java-Program-Bro-Code?style=for-the-badge&color=orange)](https://github.com/rajnil9/Java-Program-Bro-Code/stargazers)
