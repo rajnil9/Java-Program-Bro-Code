@@ -33,7 +33,7 @@ public class AlarmClock implements Runnable
           Thread.sleep(1000);
 
           LocalTime now= LocalTime.now();
-          System.out.printf("\r%02d:%02d:%02d\n" , now.getHour(), now.getMinute(), now.getSecond());
+          System.out.printf("\r%02d:%02d:%02d" , now.getHour(), now.getMinute(), now.getSecond());
         } 
         catch(InterruptedException e)
         {
@@ -58,9 +58,10 @@ private void playsound()
     Clip clip=AudioSystem.getClip();
     clip.open(as);
     clip.start();
-    System.out.println("Press *Enter* to stop the alarm");
+    System.out.print("Press *Enter* to stop the alarm: ");
     sc.nextLine();
     clip.stop();
+    sc.close();
 
   }
 
