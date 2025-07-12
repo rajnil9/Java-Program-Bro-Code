@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.time.LocalTime;
 import javax.sound.sampled.AudioInputStream;
 import javax.sound.sampled.AudioSystem;
+import javax.sound.sampled.Clip;
 import javax.sound.sampled.LineUnavailableException;
 import javax.sound.sampled.UnsupportedAudioFileException;
 
@@ -46,10 +47,13 @@ public class AlarmClock implements Runnable
 private void playsound()
 {
   File audiofile=new File(filepath);
-  AudioInputStream as=AudioSystem.getAudioInputStream(audiofile);
+  
 
 
-  try{
+  try(AudioInputStream as=AudioSystem.getAudioInputStream(audiofile)){
+    Clip clip=AudioSystem.getClip();
+    clip.open(as);
+    clip.start();
 
   }
 

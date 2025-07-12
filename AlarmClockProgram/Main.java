@@ -33,7 +33,7 @@ public class Main
     }
 
 
-    AlarmClock ac=new AlarmClock(alarmTime);
+    AlarmClock ac=new AlarmClock(alarmTime, filepath);
     Thread th=new Thread(ac);
     th.start();
   }
