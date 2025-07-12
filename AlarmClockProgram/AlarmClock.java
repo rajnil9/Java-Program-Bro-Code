@@ -58,6 +58,7 @@ private void playsound()
     Clip clip=AudioSystem.getClip();
     clip.open(as);
     clip.start();
+    System.out.println("Press *Enter* to );
 
   }
 
