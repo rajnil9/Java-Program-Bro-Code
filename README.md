@@ -6,7 +6,7 @@
 [![GitHub Repo Stars](https://img.shields.io/github/stars/rajnil9/Java-Program-Bro-Code?style=for-the-badge&color=orange)](https://github.com/rajnil9/Java-Program-Bro-Code/stargazers)
 [![GitHub Forks](https://img.shields.io/github/forks/rajnil9/Java-Program-Bro-Code?style=for-the-badge&color=blue)](https://github.com/rajnil9/Java-Program-Bro-Code/network/members)
 [![GitHub Issues](https://img.shields.io/github/issues/rajnil9/Java-Program-Bro-Code?style=for-the-badge&color=green)](https://github.com/rajnil9/Java-Program-Bro-Code/issues)
-[![MIT License](https://img.shields.io/github/license/rajnil9/Java-Program-Bro-Code?style=for-the-badge&color=brightgreen)](f)
+[![MIT License](https://img.shields.io/github/license/rajnil9/Java-Program-Bro-Code?style=for-the-badge&color=brightgreen)](LICENSE)
 
 ---
 
