@@ -2,6 +2,8 @@ package AlarmClockProgram;
 import java.io.File;
 import java.io.IOException;
 import java.time.LocalTime;
+import java.util.Scanner;
+
 import javax.sound.sampled.AudioInputStream;
 import javax.sound.sampled.AudioSystem;
 import javax.sound.sampled.Clip;
@@ -12,11 +14,13 @@ public class AlarmClock implements Runnable
 {
   private final LocalTime alarmTime;
   private final String filepath;
+  private final Scanner sc;
 
-  AlarmClock(LocalTime alarmTime , String fp)
+  AlarmClock(LocalTime alarmTime , String fp, Scanner sc)
   {
     this.alarmTime=alarmTime;
     this.filepath=fp;
+    this.sc=sc;
   }
 
   @Override
