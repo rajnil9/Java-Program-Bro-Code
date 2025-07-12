@@ -29,7 +29,8 @@ public class AlarmClock implements Runnable
         }
     }
 
-    System.out.println("\nALARM NOISES");
+    System.out.println("\n*ALARM NOISES*");
+    
     
   }
   
