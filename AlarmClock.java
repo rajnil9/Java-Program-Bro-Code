@@ -16,16 +16,17 @@ public class AlarmClock implements Runnable
         try
         {
           Thread.sleep(1000);
-          int hours=LocalTime.now().getHour();
-          int mins=LocalTime.now().getMinute();
-          int sec=LocalTime.now().getSecond();
-          System.out.printf("%02d:02d:02d\n" , hours, mins , sec);
+
+          LocalTime now= LocalTime.now();
+          System.out.printf("\r%02d:02d:02d\n" , now.getHour(), now.getMinute(), now.getSecond());
         } 
         catch(InterruptedException e)
         {
             System.out.println("Thread was interrupted");
         }
     }
+
+    System.out.println("\nALARM NOISES");
     
   }
   

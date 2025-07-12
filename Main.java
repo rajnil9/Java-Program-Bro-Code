@@ -1,25 +1,20 @@
-
-
-
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 import java.time.format.DateTimeParseException;
 import java.util.*;
-class Alarm
+public class Main
 {
   public static void main(String[] args)
    {
     
 
     Scanner sc=new Scanner(System.in);
-    LocalTime alarmTime=null;
     DateTimeFormatter f = DateTimeFormatter.ofPattern("HH:mm:ss");
+    LocalTime alarmTime=null;
     
 
     while( alarmTime==null)
     {
-
-   
     try{ 
       System.out.print("Enter time in HH:MM:SS ->");
         String inputTime = sc.nextLine();
@@ -38,8 +33,8 @@ class Alarm
 
 
     AlarmClock ac=new AlarmClock(alarmTime);
-    Thread alarmThread=new Thread(ac);
-    alarmThread.start();
+    Thread th=new Thread(ac);
+    th.start();
   }
 }
 
