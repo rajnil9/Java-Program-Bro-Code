@@ -30,8 +30,15 @@ public class AlarmClock implements Runnable
     }
 
     System.out.println("\n*ALARM NOISES*");
-    
+    playsound();
+
     
   }
-  
+
+
+private void playsound()
+{
+
+}
+
 }
