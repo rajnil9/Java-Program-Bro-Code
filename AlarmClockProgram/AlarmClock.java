@@ -5,9 +5,10 @@ public class AlarmClock implements Runnable
   private final LocalTime alarmTime;
   private final String filepath;
 
-  AlarmClock(LocalTime alarmTime)
+  AlarmClock(LocalTime alarmTime , String fp)
   {
     this.alarmTime=alarmTime;
+    this.filepath=fp;
   }
 
   @Override
