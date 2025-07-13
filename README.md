@@ -50,7 +50,7 @@ Structured according to **Bro Code’s Java Full Course:**
 
 ---
 
-### 📌 And many more, including:
+### 📌The programs covers the topics including:
 
 | Concepts & Utilities | Concepts & Utilities |
 |---|---|
