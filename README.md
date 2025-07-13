@@ -12,7 +12,7 @@
 
 This repository contains **my practical Java learning journey** while **following and coding along with [Bro Code’s Java Full Course on YouTube](https://www.youtube.com/watch?v=xTtL8E4LzTQ)**.
 
-📌 I have **practiced each concept hands-on and built mini-projects, utilities, and games** to strengthen my Java fundamentals, object-oriented programming, and advanced topics practically.
+📌 I have **practiced each concept hands-on and built mini-projects and games** to strengthen my Java fundamentals, object-oriented programming, and advanced topics practically.
 
 🚀 **This repository will help you if you wish to learn Java systematically through clear, beginner-friendly, and intermediate-level projects while watching the YT video.**
 
