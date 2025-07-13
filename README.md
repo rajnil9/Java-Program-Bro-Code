@@ -45,11 +45,8 @@ Structured according to **Bro Code’s Java Full Course:**
 | ✅ Alarm Clock ⏰ | ✅ File Reader & Writer 📖✍ |
 | ✅ TimerTask Util ⏲ | ✅ Date & Time Utilities 📆 |
 | ✅ Exception Handling ⚠ | ✅ ArrayLists, HashMaps, Generics |
-| ✅ Threads & Multithreading 🧵 | ✅ Contact Book (File-Based) |
 | ✅ Tic Tac Toe (Console) | ✅ Loops, Methods, Scope |
-| ✅ Inheritance, Interfaces, Abstraction | ✅ Polymorphism & Runtime Polymorphism |
-| ✅ Anonymous Classes | ✅ Wrapper Classes |
-| ✅ Enums | ✅ 2D Arrays, Varargs |
+
 
 ---
 
